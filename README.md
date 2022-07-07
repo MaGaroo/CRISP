@@ -24,7 +24,7 @@ Unified implementation of CRISP in Golang.
 CRISP's cicuit evaluated in the paper is implemented in two parts: ZKCE_bin and ZKCE_arith.  
 
 ## ZCKE_bin
-This directory contains the implementation of the conversion block and hash block of our soluton and evaluated in the paper. This part was implemented in C building on an implementation of ZKBoo provided by https://github.com/Sobuno/ZKBoo. Please look at the readme in the corresponding directory for further details. 
+This directory contains the implementation of the conversion block and hash block of our solution and evaluated in the paper. This part was implemented in C building on an implementation of ZKBoo provided by https://github.com/Sobuno/ZKBoo. Please look at the readme in the corresponding directory for further details. 
 
 ## ZKCE_arith 
 This directory contains the implementation of the arithmetic part of the ZKCE evaluated in the paper: the encryption and commitment blocks. This part is implemented in C++ on top of a SNUCrypto library tailored for lattices operations over polynomial rings. Please look at the readme in the corresponding directory for further details. 
